@@ -4,13 +4,21 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
 }
+
+
+body{
+    background-color: #8ed1d3;
+}
+
 h1 {
     margin: 30px;
+    color: white;
 }
 h3 {
-    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
 }
 
 li{
@@ -35,4 +43,42 @@ button{
     width: 100px;
     margin: 10px;
     height: 30px;
+}
+
+
+.completar input[type="text"],
+.completar input[type="date"],
+select{
+    background-color: none;
+    border-style: none;
+    outline: none;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+
+.completar input[type="text"]:focus,
+.completar input[type="date"]:focus,
+select{
+    outline: none;
+    background-color: none;
+}
+
+#agregar{
+    border: none;
+    background-color: red ;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#agregar:hover{
+    transform: scale(1.1);
+    background-color: rgb(240, 130, 130);
+}
+
+.eliminar{
+    border: none;
+    color: red;
 }

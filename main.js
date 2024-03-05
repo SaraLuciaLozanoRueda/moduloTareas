@@ -18,7 +18,9 @@ function agregarTarea() {
     const prioridad = prioridadSelect.value;
 
     const nuevaTareaElemento = document.createElement('li');
-    nuevaTareaElemento.textContent = `${tarea} - ${responsable} - ${inicio} - ${fin} - ${prioridad}`;
+    nuevaTareaElemento.textContent = `
+
+    ${tarea} - ${responsable} - ${inicio} - ${fin} - ${prioridad}`;
 
     const botonEliminar = document.createElement('button');
     botonEliminar.textContent ='Eliminar';
