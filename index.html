@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tareas</title>
+</head>
+
+<body>
+    <h1>Modulo De Tareas</h1>
+    <div class="completar">
+        <input type="text" id="tareas" placeholder="Escribe la tarea...">
+        <input type="text" id="responsable" placeholder="Responsable de la tarea...">
+        <input type="date" id="inicio">
+        <input type="date" id="fin">
+    </div>
+    <div>
+        <h3>Selecciona la urgencia de la tarea</h3>
+        <select name="prioridad" id="prioridad">
+            <option value="BajaUrgencia">Baja Urgencia</option>
+            <option value="MediaUrgencia">Media Urgencia</option>
+            <option value="AltaUrgencia">Alta Urgencia</option>
+        </select>
+    </div>
+    <button id="agregar">&#x2795</button>
+
+    <div class="mostrador">
+        <div>
+        </div>
+            
+            
+    </div>
+    <script src="main.js" defer></script>
+
+
+</body>
+</html>

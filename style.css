@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+h1 {
+    margin: 30px;
+}
+h3 {
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+}
+.completar{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+input,select{
+    width: 200px;
+    height: 40px;
+}
+#agregar{
+    width: 40px;
+    margin: 20px;
+    height: 30px;
+}
+button{
+    width: 100px;
+    margin: 10px;
+    height: 30px;
+}
